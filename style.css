@@ -1,0 +1,38 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.clicked-state-1 {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.clicked-state-2 {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Стилі для кнопок */
+button {
+    padding: 10px 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #27ae60;
+}

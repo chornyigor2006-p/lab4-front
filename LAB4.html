@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="веб-сторінка, резюме, студент, портфоліо, візитка">
+    <meta name="description" content="Персональна сторінка студента з інформацією про біографію, хобі та місто">
+    
+    <title>Чорний І. О., група ІО-44</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section>
+        <!-- 1-й елемент -->
+        <h2>Чорний Ігор Олексійович</h2>
+        
+        <!-- 2-й елемент (getElementById) -->
+        <p id="element-2">Народився 2 червня 2006 року в місті Кропивницький, Кіровоградська область, Україна.</p>
+        
+        <!-- 3-й елемент (querySelector) -->
+        <p class="element-3">Середню освіту здобув у загальноосвітній школі №23. Наразі навчаюся в університеті за спеціальністю «Комп'ютерна інженерія».</p>
+    </section>
+
+    <section>
+        <h3>Мої хобі</h3>
+        <ul>
+            <li>Баскетбол</li>
+            <li>Малювання</li>
+            <li>Відеоігри</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Улюблені книги та фільми</h3>
+        <ol>
+            <li>Чесно тільки аніме дивлюся останнім часом, може щось типу Доктор Стрендж?</li>
+            <li>Згадав ще фільм Варкрафт по моїй улюбленій серії ігор</li>
+            <li>Книга "Двадцять тисяч льє під водою"</li>
+        </ol>
+    </section>
+
+    <section>
+        <h3>Моє улюблене місто</h3>
+        <p>Найбільше я запам'ятав Берлін, дуже величне місто з тупо гігантською кількістю різних статуй і пам'ятників.</p>
+
+        <a href="https://www.berlin.de/uk/" target="_blank" rel="noopener noreferrer" id="image-link">
+            <img src="https://images.unsplash.com/photo-1560969184-10fe8719e047?w=800" 
+                 alt="Берлін" 
+                 id="berlin-image"
+                 width="600">
+        </a>
+        
+        <br><br>
+        
+        <div id="controls">
+            <button id="btn-add">Додати</button>
+            <button id="btn-increase">Збільшити</button>
+            <button id="btn-decrease">Зменшити</button>
+            <button id="btn-remove">Видалити</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
